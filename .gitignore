@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+
+# Next.js
+.next/
+
+# Build artifacts
+build/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
