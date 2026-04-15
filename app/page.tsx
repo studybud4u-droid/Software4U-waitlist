@@ -68,7 +68,7 @@ export default function WaitlistPage() {
     setIsLoading(true);
 
     try {
-      const { data, error: insertError } = await supabase
+      const { error: insertError } = await supabase
         .from('waitlist_signups')
         .insert([{ email, consent_given: true }])
         .select('id, email')
