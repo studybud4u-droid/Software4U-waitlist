@@ -1,30 +1,30 @@
 'use client';
 
-export default function PrivacyPage() {
+export default function TermsPage() {
   return (
     <div style={styles.container}>
       <div style={styles.content}>
-        <h1>Privacy Policy</h1>
+        <h1>Terms of Use</h1>
         <p style={styles.date}>Last Updated: April 14, 2026</p>
 
         <section style={styles.section}>
-          <h2>Data Collection</h2>
-          <p>We collect the following information when you sign up for the waitlist: email address, IP address, and browser information.</p>
+          <h2>1. Agreement to Terms</h2>
+          <p>By accessing and using the Software4U waitlist, you accept and agree to be bound by the terms and provisions of this agreement.</p>
         </section>
 
         <section style={styles.section}>
-          <h2>Use of Data</h2>
-          <p>We use collected data to: provide and maintain our service, send launch updates, and analyze waitlist growth patterns.</p>
+          <h2>2. Waitlist Benefits</h2>
+          <p>Early signup benefits are granted based on your position in the waitlist at the time of signup. Benefits are non-transferable and apply only to the email address provided during signup.</p>
         </section>
 
         <section style={styles.section}>
-          <h2>Data Security</h2>
-          <p>Your data is stored securely in Supabase with encryption in transit and at rest.</p>
+          <h2>3. Communications</h2>
+          <p>By joining the waitlist, you consent to receive email communications about Software4U's launch and updates. You may unsubscribe at any time.</p>
         </section>
 
         <section style={styles.section}>
-          <h2>Contact</h2>
-          <p>Email: privacy@software4u.com</p>
+          <h2>4. Contact</h2>
+          <p>Email: legal@software4u.com</p>
         </section>
       </div>
     </div>
